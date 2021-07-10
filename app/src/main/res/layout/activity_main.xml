@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#313236"
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="17.25dp"
+        android:layout_height="16.69dp"
+        android:layout_marginTop="16.65dp"
+        android:layout_marginLeft="13.5dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="Masai School"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="55dp"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/masai" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="220dp"
+            android:text="Coding school of 21 st century"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="259dp"
+            android:layout_below="@+id/tv1"
+            android:text="Launch your new tech career from anywhere in just 7 months and pay nothing until you land a high-paying job. Attend live classes from anywhere in india. Bengaluru-based Masai School is a coding bootcamp that trains tech aspirants in full-stack, web, and android development. The programme lets students pay the course fee after they get a suitable job. Report after report indicates that India’s youth isn’t job and future-ready. A pain point that Prateek Shukla, Nrupul Dev, and Yogesh Bhat aim to solve with Masai School, a coding bootcamp that offers learning programmes to create skilled professionals.
+
+The Bengaluru-based startup, which was launched in June 2019, is open to anybody seeking training in coding. Interestingly, learners are enrolled for free at Masai School for the six-month, full-stack web development programme along with personality development and soft skills coaching. They can pay the course fee at a later date, after getting a suitable job."
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+
+</ScrollView>
